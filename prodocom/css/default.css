@@ -1,0 +1,105 @@
+*						{ margin:0px; padding:0px; } 
+body					{ background-color:#FFFFFF; color: black; font-family: 'ProximaNovaRgRegular',Helvetica,Arial; font-size: 1em; }
+header					{ width:100%; background-color: #222; color: #646567; position:fixed; top:0px; z-index:999; }
+content					{ width:100%; }
+footer					{ width:100%; text-align: center; background-color: #222; color: #646567; }
+h1 strong				{ font-family: 'ProximaNovaLtBold',Helvetica,Arial; }
+h3						{ color: #F47920; }
+a, a:hover				{ color: #F47920; }
+header ul				{ width:100%; }
+header ul li 				{ display: inline-block;  font-size: 0.8em; padding: 20px 20px; }
+header ul li a				{ color: #ccc; text-decoration: none; font-weight:bold; }
+#communication-banner	{ background-image: url("../images/book-of-communication.jpg"); background-size: cover; height:400px; background-position:left top; border-bottom:1px solid #555; }
+#communication-banner h1	{ background: rgba(0, 0, 0, 0.15); color: #FFFFFF; font-family: 'ProximaNovaThRegular'; font-size: 65px; letter-spacing: -2px; padding: 0 10px; float:right; margin: 140px 30px 0 auto; }
+#company-logo			{ width:1000px; margin:auto; padding: 100px 0; margin:auto; text-align:center; }
+#banner-logo-gradient	{
+							width:100%;
+							height:50px;
+							background: #FFFFFF; /* for non-css3 browsers */
+							filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#CCCCCC', endColorstr='#FFFFFF'); /* for IE */
+							background: -webkit-gradient(linear, left top, left bottom, from(#CCC), to(#FFF)); /* for webkit browsers */
+							background: -moz-linear-gradient(top,  #CCC,  #FFF); /* for firefox 3.6+ */
+						}
+#content				{ width:1000px; margin:50px auto; }
+#fax					{ background: url("../images/fax.png") no-repeat scroll left top transparent;  background-size: cover; height: 308px; width: 323px; position: absolute; left:-1800px; margin: 40px 0 0 60px;  }
+#email					{ background: url("../images/email.png") no-repeat scroll left top transparent; background-size: cover; height: 250px; width: 250px; position: absolute; right:1800px; }
+#mobile					{ background: url("../images/mobile.png") no-repeat scroll left top transparent; background-size: cover; height: 250px; width: 250px;  position: absolute; left:-1800px; margin: 40px 0 0 60px; }
+#voice					{ background: url("../images/voice.png") no-repeat scroll left top transparent; background-size: cover; height: 250px; width: 250px; position: absolute; right:1800px; }
+#post					{ background: url("../images/post.png") no-repeat scroll left top transparent; background-size: cover; height: 250px; width: 250px;  position: absolute; left:-1800px; margin: 40px 0 0 60px; }
+#block-one, #block-two, #block-three, #block-four, #block-five { width:1000px; padding:100px 0; margin: auto; } 
+#content-footer-gradient	{
+								width:100%;
+								height:50px;
+								background: #FFFFFF; /* for non-css3 browsers */
+								filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFFFFF', endColorstr='#CCCCCC'); /* for IE */
+								background: -webkit-gradient(linear, left top, left bottom, from(#FFF), to(#CCC)); /* for webkit browsers */
+								background: -moz-linear-gradient(top,  #FFF,  #CCC); /* for firefox 3.6+ */
+							}
+#we-deliver				{ background-color:#F47920; color: #4C4C4C; font-family: 'ProximaNovaThRegular'; font-size: 2em; letter-spacing: -1px; position: relative; text-align: center; text-shadow: 0 1px 1px #FFFFFF; padding:50px 0; }
+#copyright				{ padding: 40px 0; }
+.scrollblock			{ min-height:400px; margin:100px 0; border:1px solid 333; overflow-x:hidden; }
+.textright				{ margin-left: 380px; position: relative; top: 70px; }
+.textleft				{ margin-left: 0; position: relative; top: 70px; width: 620px; }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@font-face {
+	font-family: 'ProximaNovaLtRegular';
+    src: url('../fonts/proxima_nova_light-webfont.eot');
+    src: url('../fonts/proxima_nova_light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_light-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_light-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_light-webfont.svg#ProximaNovaLtRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'ProximaNovaThRegular';
+    src: url('../fonts/proxima_nova_thin-webfont.eot');
+    src: url('../fonts/proxima_nova_thin-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_thin-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_thin-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_thin-webfont.svg#ProximaNovaThRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'ProximaNovaLtBold';
+    src: url('../fonts/proxima_nova_sbold-webfont.eot');
+    src: url('../fonts/proxima_nova_sbold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_sbold-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_sbold-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_sbold-webfont.svg#ProximaNovaLtBold') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNovaRgRegular';
+    src: url('../fonts/proxima_nova_reg-webfont.eot');
+    src: url('../fonts/proxima_nova_reg-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/proxima_nova_reg-webfont.woff') format('woff'),
+         url('../fonts/proxima_nova_reg-webfont.ttf') format('truetype'),
+         url('../fonts/proxima_nova_reg-webfont.svg#ProximaNovaRgRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
