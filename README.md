@@ -1,11 +1,10 @@
-# eztv.it Web Theme
+# PRODOCOM Web Theme
 
-A theme created for a competition at eztv.it
-Web-Theme-EZTV.it
+A theme created for a former employee PRODOCOM
 
 ## Getting Started
 
-This wont require any implimentation.
+This wont require any implementation.
 
 ### Prerequisites
 
