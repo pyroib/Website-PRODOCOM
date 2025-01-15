@@ -1,6 +1,8 @@
 # PRODOCOM Web Theme
 
-A theme created for a former employee PRODOCOM
+The beginning of a theme created for a former employee PRODOCOM.
+
+** This is incomplete
 
 ## Getting Started
 
